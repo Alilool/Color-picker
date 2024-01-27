@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive, sans-serif;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
+    margin: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card>p {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:690px) {
+    .card {
+        margin: 10px;
+    }
+}
+
+@media (max-width:340px) {
+    .card {
+        margin-bottom: 0px;
+        height: 150px;
+    }
+}
